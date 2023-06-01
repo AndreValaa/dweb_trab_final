@@ -56,12 +56,12 @@ class Login extends Component {
                         <h1 style={{ color: 'white' }}>LOG IN</h1>
                         <form >
                             <div className='divTxtLogin'>
-                                <b><p className='paragLogin'>Username  </p></b>
-                                <b><p className='paragLogin'>Password  </p></b>
+                                <b><p className='paragLogin'>  </p></b>
+                                <b><p className='paragLogin'>  </p></b>
                             </div>
                             <div className='divInputsLogin'>
-                                <input className='inputLogin' type='text' onChange={this.handleCheckUsername}></input>
-                                <input className='inputLogin' type='password' onChange={this.handleCheckpasswd}></input>
+                                <input className='inputLogin' type='text' placeholder='Username' onChange={this.handleCheckUsername}></input>
+                                <input className='inputLogin' type='password' placeholder='Password' onChange={this.handleCheckpasswd}></input>
                             </div>
                             <button className='buttonLogin' type='submit' >Log in</button>
                         </form>

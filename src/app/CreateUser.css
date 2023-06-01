@@ -22,7 +22,7 @@
 }
 
 .buttonCreateUser {
-    margin: 10px 100px;
+    margin: 10px 200px;
     border-radius: 0px;
     width: 100px;
     height: 35px;
@@ -41,10 +41,10 @@
 }
 
 .divInputsCreateUser {
-    width: 300px;
+    width: 400px;
     float: left;
     text-align: center;
-    margin: 20px 0px;
+    margin: 20px 50px;
 }
 
 
@@ -62,8 +62,9 @@
     border-bottom: 2px solid;
     border-color: aliceblue;
     position: relative;
+    outline: none;
     margin: 5px;
-    width: 280px;
+    width: 300px;
     height: 40px;
     font-size: 20px;
     background: transparent;
@@ -80,4 +81,12 @@
     margin: 8.5px 0px 20px 0px;
     font-size: 20px;
     color: white;
+}
+
+.inputCreateUser {
+    color: aliceblue;
+}
+
+::placeholder {
+    color: aliceblue;
 }
